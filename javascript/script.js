@@ -19,7 +19,7 @@ function addOperator(op) {
     }
     // Prevent multiple operators in a row
     const lastChar = input.value.slice(-1);
-    if (['+', '-', '*', '/'].includes(lastChar)) return;
+    if (['+', '-', '*', '/'].includes(lastChar) && op !== '%') return;
     input.value += op;
 }
 
@@ -53,4 +53,7 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
-// For better UX, you might also want to handle button clicks if you have a calculator UI
+// Debugging: Log to see if functions are called
+document.querySelectorAll('.button').forEach(button => {
+    button.addEventListener('click', () => console.log('Button clicked: ', button.textContent));
+});
