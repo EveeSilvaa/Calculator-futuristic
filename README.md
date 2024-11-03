@@ -2,7 +2,8 @@
 
 Welcome to the **Futuristic Neon Calculator**! This stylish, modern calculator features a neon-themed UI and supports basic arithmetic operations. It's designed with a futuristic look and supports both mouse and keyboard interactions.
 
-![Calculator Preview](previwe.png)
+![Captura de tela 2024-11-02 214514](https://github.com/user-attachments/assets/b61df6ae-c70e-4127-8694-d78b97f29cda)
+
 
 ## Features
 
